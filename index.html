@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع استثماري</title>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://www.your-image-url.com/header-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+        }
+        nav ul li a:hover {
+            background-color: #ffcc00;
+            border-radius: 5px;
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+            margin: 40px 20px;
+            flex-wrap: wrap;
+        }
+        .plan {
+            background-color: #fff;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 320px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .plan:hover {
+            transform: scale(1.05);
+        }
+        .plan h2 {
+            color: #34495e;
+            font-size: 24px;
+        }
+        .plan p {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+        .plan .price {
+            font-size: 28px;
+            color: #27ae60;
+            margin: 15px 0;
+        }
+        button {
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #3498db;
+        }
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>استثمر مع الثقة</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الصفحة الرئيسية</a></li>
+                <li><a href="#">حول</a></li>
+                <li><a href="#">خطط الاستثمار</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="plans">
+        <!-- الخطة الأولى -->
+        <div class="plan">
+            <h2>الخطة الأساسية</h2>
+            <p>استثمر وابدأ بجني الأرباح خلال 7 أيام</p>
+            <div class="price">100$ - 1000$</div>
+            <p>نسبة العائد: 5%</p>
+            <button>اشترك الآن</button>
+        </div>
+        
+        <!-- الخطة المتقدمة -->
+        <div class="plan">
+            <h2>الخطة المتقدمة</h2>
+            <p>استثمر لجني الأرباح خلال 30 يومًا</p>
+            <div class="price">1000$ - 5000$</div>
+            <p>نسبة العائد: 10%</p>
+            <button>اشترك الآن</button>
+        </div>
+        
+        <!-- الخطة الاحترافية -->
+        <div class="plan">
+            <h2>الخطة الاحترافية</h2>
+            <p>استثمار طويل الأجل لجني أرباح كبيرة</p>
+            <div class="price">5000$ - 20000$</div>
+            <p>نسبة العائد: 15%</p>
+            <button>اشترك الآن</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 موقع الاستثمار. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
